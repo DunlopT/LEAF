@@ -1,0 +1,19 @@
+This folder includes the following files to run the LEAF (v.1.0) model:
+
+1. LEAF_input.json
+2. LEAF_main.py
+
+Before running the LEAF model, the project in DFM needs to be set up. Example files for incorporating vegetation into DFM and for coupling the project with LEAF are provided in this repository.
+Once the project has been established, the files in this folder are to be edited.
+
+Firstly, the parameters in the LEAF_input.json file (1) are to be assigned values, typically representative of the Avicennia marina mangroves at the user's project site.
+The parameters in this file have already been assigned recommended values from academic literature and field measurements, which can be used in lieu of detailed site information.
+An explanation of these parameters is given in Appendix A of the associated publication.
+
+Secondly, the sections "FOLDER SETUP" and "INPUTS" in the LEAF_main.py file (2) require editing.
+The section "FOLDER SETUP" requires updating to correctly assign filepaths to the DFM executable files, DFM project files, LEAF input file, and plot output folders.
+The section "INPUTS" requires updating to tailor the cross-section plots to the project site.
+Additionally, the text "NOTE: OPTIONAL USER UPDATE" has been added to sections in the main code where users can include additional logical expressions or relationships for key mangrove attributes.
+These will need to be updated in conjunction with the input file.
+
+Finally, the model can be run simply by executing the LEAF_main.py code.
