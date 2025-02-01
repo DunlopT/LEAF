@@ -9,6 +9,7 @@ Once the project has been established, the files in this folder are to be edited
 Firstly, the parameters in the LEAF_input.json file (1) are to be assigned values, typically representative of the Avicennia marina mangroves at the user's project site.
 The parameters in this file have already been assigned recommended values from academic literature and field measurements, which can be used in lieu of detailed site information.
 An explanation of these parameters is given in Appendix A of the associated publication.
+If running the example DFM model runs, an example input file has already been created in the relevant dflowfm folder.
 
 Secondly, the sections "FOLDER SETUP" and "INPUTS" in the LEAF_main.py file (2) require editing.
 The section "FOLDER SETUP" requires updating to correctly assign filepaths to the DFM executable files, DFM project files, LEAF input file, and plot output folders.
