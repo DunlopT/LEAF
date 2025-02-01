@@ -1,0 +1,15 @@
+
+[boundary]
+quantity=waterlevelbnd
+locationFile=Boundary01.pli
+forcingFile=WaterLevelSpencer.bc
+
+[boundary]
+quantity=neumannbnd
+locationFile=Boundary02.pli
+forcingFile=Neumann.bc
+
+[boundary]
+quantity=neumannbnd
+locationFile=Boundary03.pli
+forcingFile=Neumann.bc

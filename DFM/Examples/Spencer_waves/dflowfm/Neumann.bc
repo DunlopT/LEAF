@@ -1,0 +1,44 @@
+[forcing]
+Name                            = Boundary01_0001
+Function                        = harmonic
+Quantity                        = harmonic component
+Unit                            = minutes
+Quantity                        = neumannbnd amplitude
+Unit                            = -
+Quantity                        = neumannbnd phase
+Unit                            = deg
+0  0  0
+
+[forcing]
+Name                            = Boundary01_0002
+Function                        = harmonic
+Quantity                        = harmonic component
+Unit                            = minutes
+Quantity                        = neumannbnd amplitude
+Unit                            = -
+Quantity                        = neumannbnd phase
+Unit                            = deg
+0  0  0
+
+[forcing]
+Name                            = Boundary02_0001
+Function                        = harmonic
+Quantity                        = harmonic component
+Unit                            = minutes
+Quantity                        = neumannbnd amplitude
+Unit                            = -
+Quantity                        = neumannbnd phase
+Unit                            = deg
+0  0  0
+
+[forcing]
+Name                            = Boundary02_0002
+Function                        = harmonic
+Quantity                        = harmonic component
+Unit                            = minutes
+Quantity                        = neumannbnd amplitude
+Unit                            = -
+Quantity                        = neumannbnd phase
+Unit                            = deg
+0  0  0
+

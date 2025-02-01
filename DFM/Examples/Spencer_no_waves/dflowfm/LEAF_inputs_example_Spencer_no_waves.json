@@ -1,0 +1,163 @@
+{
+    "1. Time": {
+        "mtpervt": 43200,
+        "nt": 5112,
+        "seedwinstart": "15/01/2017",
+        "seedwinend": "15/03/2017",
+        "seedwinrep": "Y"
+    },
+    "2. Plotting": {
+        "percentiledmg": 95,
+        "plotint": 120
+    },
+    "3. Initial mangroves": {
+        "iniveg": "N",
+        "iniden": 1,
+        "inistemdia": 0.2,
+        "inirtlen": 5,
+        "inirtdia": 0.02,
+        "inipnelen": 0.1,
+        "inipnedia": 0.008,
+        "iniage": 4
+    },
+    "4. Mangrove extrema": {
+        "maxstemsmsq": 2,
+        "maxstemht": 8,
+        "maxstemdia": 0.6,
+        "maxrtlen": 15,
+        "maxrtdia": 0.05,
+        "maxrts": 20,
+        "maxpnedia": 0.015
+    },
+    "5. Other mangrove parameters": {
+        "sapht": 0.5,
+        "fecundity": 1,
+        "cablertdepth": 0.05,
+        "pneumint": 0.04,
+        "autoch": 0.004,
+        "startrt": 0.001,
+        "startdia": 0.001,
+        "startpnedia": 0.005
+    },
+    "6. Establishment": {
+        "estactive": "Y",
+        "seedtrvldist": 8,
+        "inundfreepd": 12,
+        "estchance": 0.1,
+        "taucrit": "balke2015",
+        "vegtrkrt_thresh": "balke2015",
+        "erocrit": "balke2015"
+    },
+    "7. Growth": {
+        "growthactive": "Y",
+        "growthlogic": "simplified",
+        "vegtrkdiagrowth": "hastuti2018",
+        "seedht2dia": "jacotot2019",
+        "vegtrkrt_seedling_growth": "balke2015",
+        "seedrtdia2len": "basyuni2018",
+        "vegtrkdia_adult_growth": "rajkumar2017",
+        "dbh2ht": 25,
+        "vegtrkrt_adult_growth": 0.001,
+        "vegtrkrtdia_adult_growth": "allometric1",
+        "pnelenreq": 1,
+        "vegtrkpnedia_adult_growth": 0.00001,
+        "pnelen2pnedia": "jereznova2022"
+    },
+    "8. Recovery and mortality": {
+        "mortactive": "Y",
+        "inundactive": "Y",
+        "inundhtthresh": 0.5,
+        "inundstemht": 1,
+        "inundpneumlen": 1,
+        "inundtimeseed1": 6,
+        "inundtimesap1": 6,
+        "inundtimeseed2": 20,
+        "inundtimesap2": 20,
+        "recinundtimeseed": 16,
+        "recinundtimesap": 16,
+        "addinundtimeseed": 10,
+        "addinundtimesap": 10,
+        "maxinundevents": 2,
+        "desiccactive": "Y",
+        "wdthresh": 0.0001,
+        "desicctimeseed1": 6,
+        "desicctimesap1": 6,
+        "desicctimeseed2": 20,
+        "desicctimesap2": 20,
+        "recdesicctimeseed": 16,
+        "recdesicctimesap": 16,
+        "adddesicctimeseed": 10,
+        "adddesicctimesap": 10,
+        "maxdesiccevents": 2,
+        "burialactive": "Y",
+        "burialeventtime": 14,
+        "burialseedht1": 0.5,
+        "burialseedht2": 1,
+        "burialpneht1": 0.5,
+        "burialpneht2": 1,
+        "burialmorttime": 60,
+        "senesactive": "N",
+        "maxage": 100,
+        "sysremactive": "Y",
+        "sysremthresh": 0.1
+    },
+    "9. Functionality": {
+        "funcactive": "Y",
+        "projareastem": "cylinder",
+        "projareapneum": "du2021",
+        "projvolstem": "cylinder",
+        "projvolpneum": "du2021",
+        "dragcoeff": "vanmaanen2015",
+        "percentileveg": 85,
+        "biomassactive": "Y",
+        "agb": "comleymcguiness2005",
+        "bgb": "comleymcguiness2005",
+        "autochactive": "N"
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

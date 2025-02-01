@@ -1,0 +1,40 @@
+screen output of swan.bat is written to this file 
+and will be overwritten everytime that swan.bat is executed 
+ECHO is off.
+SWAN batchfile executed for Delft3D 
+Using swan.bat in directory C:\Program Files (x86)\Deltares\Delft3D Flexible Mesh Suite HMWQ (2021.03)\plugins\DeltaShell.Dimr\kernels\x64\swan\scripts\ 
+Using C:\Program Files (x86)\Deltares\Delft3D Flexible Mesh Suite HMWQ (2021.03)\plugins\DeltaShell.Dimr\kernels\x64\swan\scripts\\..\bin\swan_omp.exe 
+Performing wave computation for: Waves.swn 
+        1 file(s) copied.
+
+ SWAN is preparing computation
+
+ Number of threads during execution of parallel region =  8
+
+ iteration    1; sweep 1
++iteration    1; sweep 2
++iteration    1; sweep 3
++iteration    1; sweep 4
+ accuracy OK in   3.86 % of wet grid points ( 98.00 % required)
+
+ iteration    2; sweep 1
++iteration    2; sweep 2
++iteration    2; sweep 3
++iteration    2; sweep 4
+ accuracy OK in  43.51 % of wet grid points ( 98.00 % required)
+
+ iteration    3; sweep 1
++iteration    3; sweep 2
++iteration    3; sweep 3
++iteration    3; sweep 4
+ accuracy OK in  94.39 % of wet grid points ( 98.00 % required)
+
+ iteration    4; sweep 1
++iteration    4; sweep 2
++iteration    4; sweep 3
++iteration    4; sweep 4
+ accuracy OK in 100.00 % of wet grid points ( 98.00 % required)
+
++SWAN is processing output request    1
++SWAN is processing output request    2
+        1 file(s) copied.

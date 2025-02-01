@@ -1,0 +1,24 @@
+screen output of ESMF_RegridWeightGen_in_Delft3D-WAVE.bat is written to this file 
+and will be overwritten everytime that ESMF_RegridWeightGen_in_Delft3D-WAVE.bat is executed 
+ECHO is off.
+Executing batchscript "ESMF_RegridWeightGen_in_Delft3D-WAVE.bat" for Delft3D-WAVE 
+This script is located in directory C:\Program Files (x86)\Deltares\Delft3D Flexible Mesh Suite HMWQ (2021.03)\plugins\DeltaShell.Dimr\kernels\x64\esmf\scripts\ 
+Using "C:\Program Files (x86)\Deltares\Delft3D Flexible Mesh Suite HMWQ (2021.03)\plugins\DeltaShell.Dimr\kernels\x64\esmf\scripts\\..\bin\ESMF_RegridWeightGen.exe" 
+Calling ESMF_RegridWeightGen with arguments: --ignore_unmapped -m bilinear --src_type ESMF --dst_type ESMF  -s TMP_ESMF_RegridWeightGen_flow_source_0001.nc -d TMP_ESMF_RegridWeightGen_Outer_grd_destination_0001.nc -w TMP_ESMF_RegridWeightGen_Outer_grd_weights_0001to0001.nc 
+ Starting weight generation with these inputs: 
+   Source File: TMP_ESMF_RegridWeightGen_flow_source_0001.nc
+   Destination File: TMP_ESMF_RegridWeightGen_Outer_grd_destination_0001.nc
+   Weight File: TMP_ESMF_RegridWeightGen_Outer_grd_weights_0001to0001.nc
+   Source File is in ESMF format
+   Source Grid is a global grid
+   Source Grid is an unstructured grid
+   Destination File is in ESMF format
+   Destination Grid is a global grid
+   Destination Grid is an unstructured grid
+   Regrid Method: bilinear
+   Pole option: ALL
+   Ignore unmapped destination points
+   Norm Type: dstarea
+
+ Completed weight generation successfully.
+
