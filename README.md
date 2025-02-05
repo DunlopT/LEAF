@@ -5,10 +5,6 @@ This repository houses the Lifecycle Ecosystem Assessment Forecast (LEAF) model.
 
 LEAF forms part of the PhD research conducted by Thomas Dunlop at the [Water Research Laboratory, UNSW Sydney](https://www.unsw.edu.au/research/wrl).
 
-LEAF model version 1.0 (dated 31.01.2025) is outlined in the following publication:
-
-Dunlop, T., Felder, S., Glamore, W. 2025. A mangrove Lifecycle Ecosystem Analysis and Forecasting (LEAF) model. Environmental Modelling & Software.
-
 # 1. Model Background
 Quantifying the viability of mangrove restoration strategies, and the ecosystem services that mangroves provide, requires a detailed understanding of the mangrove lifecycle ([Dunlop et al., 2023](https://www.sciencedirect.com/science/article/pii/S0048969723009786)). As such, the LEAF model predicts how individual mangroves will respond to stressor events including extreme high and low water levels, sedimentation, and erosion. The pressure-stressor-response models are used to predict mangrove establishment, growth, stress and recovery, and mortality ([Dunlop et al., 2023](https://www.sciencedirect.com/science/article/pii/S0048969723009786)), which, in turn, influence the extent of a mangrove forest. The data included in the LEAF model is based on published ecological and engineering parameters and relationships derived from field surveys and laboratory experiments for *Avicennia marina*. The current model is based on a schematised nearshore estuarine shoreline, which has been validated with field measurements from [Henderson and Glamore (2024)](https://www.sciencedirect.com/science/article/pii/S0272771424002014) across four estuary typologies using *Avicennia marina* mangroves in New South Wales (NSW), Australia. Future revisions of the LEAF model will use field data to expand on available allometric relationships and include failure mechanisms from storm events to cover a wider range of acute and chronic climate hazards when evaluating mangrove forest response.
 
