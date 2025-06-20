@@ -45,7 +45,7 @@ pip install package_name
 ```
 
 ## 2.2 DFM
-Version 1.0 of the LEAF model has been coupled with DFM (version 2021.03). The latest version of DFM can be downloaded [here](https://download.deltares.nl/en/delft3dfm-2d3d-ga-hmwq). When setting up a D-Flow or coupled D-Flow and D-Waves model in DFM, care should be taken to ensure that the relevant inputs in the mdu and mdw files match those in the LEAF inputs file. In the DFM examples provided in this repository, notes are included to guide the user to update the relevant inputs.
+Versions 1.0 and 2.0 of the LEAF model has been coupled with DFM (version 2021.03). The latest version of DFM can be downloaded [here](https://download.deltares.nl/en/delft3dfm-2d3d-ga-hmwq). When setting up a D-Flow or coupled D-Flow and D-Waves model in DFM, care should be taken to ensure that the relevant inputs in the mdu and mdw files match those in the LEAF inputs file. In the DFM examples provided in this repository, notes are included to guide the user to update the relevant inputs.
 
 # 3. LEAF Setup
 Once the DFM model has been established, the LEAF model can be set up. The main LEAF folder in this repository includes a guidance note, LEAF_note.txt, to guide the user through the LEAF setup process. The LEAF model comprises two main files:
@@ -53,7 +53,7 @@ Once the DFM model has been established, the LEAF model can be set up. The main 
 1. LEAF_input.json
 2. LEAF_main.py
 			
-The first file requires updating the relevant input parameters for the user's project site. Recommended values are already provided in the example presented in this repository. Note that the values chosen for the parameters influencing the number of stems and pneumatophores, may lead to the model inadvertently terminating due to insufficient available computer memory. The second file is the main code used to run the LEAF model. This code contains several inputs related to filepaths and plotting variables which need to be updated prior to running LEAF. Further detail is provided in the guidance note.
+With later versions of the model, new versions of these files will be created with a suffix including the version number. The first file requires updating the relevant input parameters for the user's project site. Recommended values are already provided in the example presented in this repository. Note that the values chosen for the parameters influencing the number of stems and pneumatophores, may lead to the model inadvertently terminating due to insufficient available computer memory. The second file is the main code used to run the LEAF model. This code contains several inputs related to filepaths and plotting variables which need to be updated prior to running LEAF. Further detail is provided in the guidance note.
 
 # 4. Running LEAF
 To run the LEAF model, open the Anaconda Prompt and enter:
